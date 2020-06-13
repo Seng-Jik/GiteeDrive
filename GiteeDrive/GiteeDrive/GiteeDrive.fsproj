@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Seng Jik</Authors>
+    <Company>Strrationalism</Company>
+    <Description>Using gitee.com as a cloud drive.</Description>
+    <PackageProjectUrl>https://github.com/Strrationalism/GiteeDrive</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Strrationalism/GiteeDrive</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Global.fs" />
+    <Compile Include="Item.fs" />
+    <Compile Include="Repo.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Data" Version="3.3.3" />
+  </ItemGroup>
+
+</Project>

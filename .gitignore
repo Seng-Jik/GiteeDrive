@@ -1,0 +1,8 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/GiteeDrive/GiteeDrive/obj
+/GiteeDrive/GiteeDrive/bin
+/GiteeDrive/packages
+/GiteeDrive/.vs/GiteeDrive
